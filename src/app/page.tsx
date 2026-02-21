@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import jessica from 'public/images/avatar-jessica.jpeg';
+// import jessica from 'public/images/avatar-jessica.jpeg';
 
 export default function Home() {
   return (
     <div className="w-[384] bg-[#1F1F1F] text-white flex flex-col gap-[24px] justify-center items-center p-[40px]">
       <Image
         className="rounded-full"
-        src={jessica}
+        src="/images/avatar-jessica.jpeg"
         alt="profile"
         width={88}
         height={88}
